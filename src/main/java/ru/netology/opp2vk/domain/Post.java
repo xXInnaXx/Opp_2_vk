@@ -7,17 +7,22 @@ public class Post {
     private String name;
     private String authorId;
     private String[] attachmentsIds;
-    private String geo;
+    private GeoInfo geoInfo;
     private Date date;
     private String textBox;
-    private int likesCount;
-    private int sharedUsersCount;
+    private LikeInfo likeInfo;
+    private RepostInfo repostInfo;
     private int viewsCount;
     private String[] links;
-    private Comment[] commens;
+    private Comment[] comments;
     private String dateComment;
     private String replayComment;
     private String[] likesComment;
     private String find;
+    private boolean canDelete;
+    private boolean canPin;
+    private boolean canEdit;
+    private boolean isFavorite;
+    private boolean isPinned;
     //getter setter
 }
